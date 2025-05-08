@@ -18,6 +18,7 @@ gem "sqlite3"
 
 group :development do
   gem "hanami-webconsole", "~> 2.2"
+  gem "guard", "~> 2.19"
 end
 
 group :development, :test do
@@ -40,3 +41,5 @@ group :test do
   gem "capybara"
   gem "rack-test"
 end
+
+gem "guard-compat", "~> 1.2"
